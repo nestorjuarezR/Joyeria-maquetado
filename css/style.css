@@ -1,5 +1,17 @@
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgb(105, 105, 105);        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgba(209, 208, 208, 0.87);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+  }
 
-nav{
+nav {
     background-color: #305252;
 }
 
@@ -9,11 +21,11 @@ nav{
     margin-top: 6px;
 }
 
-.material-icons{
+.material-icons {
     color: #488286;
 }
 
-.tabs{
+.tabs {
     background-color: #305252;
     color: white;
 }
