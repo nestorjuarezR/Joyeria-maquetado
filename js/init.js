@@ -10,6 +10,9 @@
         alignment: 'center',
         constrainWidth: true
     });
+    $('.collapsible').collapsible({
+      accordion:false
+    });
     $('.datepicker').datepicker({
       firstDay: 1,
       selectYears: 90,
