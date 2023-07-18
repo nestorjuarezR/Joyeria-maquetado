@@ -1,6 +1,5 @@
 (function($){
   $(function(){
-
     $('.sidenav').sidenav();
     $('.parallax').parallax();
     $('.tabs').tabs();
@@ -18,16 +17,14 @@
       selectYears: 90,
       format: 'yyyy-mm-dd',
       yearRange: [1910, 2022]
-  });
-  $('.slider').slider({
-    indicators: false,
-    height: 500
-  });
-  $(document).ready(function(){
+    });
+    $('.slider').slider({
+      indicators: false,
+      height: 500
+    });
     $('.materialboxed').materialbox();
-  });
-  $(document).ready(function(){
-    $('.carousel').carousel();
-  });
+    $('.carousel').carousel({
+      indicators: true,
+      });
   }); // end of document ready
 })(jQuery); // end of jQuery name space
